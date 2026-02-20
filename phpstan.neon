@@ -3,7 +3,5 @@ parameters:
     paths:
         - src
         - tests
-    excludePaths:
-        - tests/bootstrap.php
     checkMissingIterableValueType: false
     checkGenericClassInNonGenericObjectType: false
