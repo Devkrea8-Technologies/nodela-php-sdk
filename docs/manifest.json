@@ -1,0 +1,64 @@
+{
+  "name": "Nodela PHP SDK",
+  "version": "1.0.0",
+  "description": "Official PHP SDK for the Nodela payment API",
+  "baseUrl": "https://nodela.co/docs/php-sdk",
+  "documents": [
+    {
+      "id": "getting-started",
+      "title": "Getting Started",
+      "file": "getting-started.md",
+      "description": "Installation, initialisation, and your first API request",
+      "order": 1,
+      "tags": ["installation", "quickstart", "setup"]
+    },
+    {
+      "id": "configuration",
+      "title": "Configuration",
+      "file": "configuration.md",
+      "description": "Config class options, custom headers, timeouts, and base URL override",
+      "order": 2,
+      "tags": ["config", "headers", "timeout", "api-key"]
+    },
+    {
+      "id": "invoices",
+      "title": "Invoices",
+      "file": "invoices.md",
+      "description": "Creating invoices, verifying payment status, supported currencies",
+      "order": 3,
+      "tags": ["invoices", "payments", "currencies", "create", "verify"]
+    },
+    {
+      "id": "transactions",
+      "title": "Transactions",
+      "file": "transactions.md",
+      "description": "Listing and paginating transaction history",
+      "order": 4,
+      "tags": ["transactions", "list", "pagination", "history"]
+    },
+    {
+      "id": "error-handling",
+      "title": "Error Handling",
+      "file": "error-handling.md",
+      "description": "Exception hierarchy, catching specific errors, retry strategies",
+      "order": 5,
+      "tags": ["errors", "exceptions", "authentication", "validation", "rate-limit"]
+    },
+    {
+      "id": "http-layer",
+      "title": "HTTP Layer",
+      "file": "http-layer.md",
+      "description": "Request and Response internals for advanced integration",
+      "order": 6,
+      "tags": ["http", "guzzle", "request", "response", "advanced"]
+    },
+    {
+      "id": "testing",
+      "title": "Testing",
+      "file": "testing.md",
+      "description": "Running the test suite, mocking strategies, writing new tests",
+      "order": 7,
+      "tags": ["testing", "phpunit", "mocking", "unit", "integration"]
+    }
+  ]
+}
