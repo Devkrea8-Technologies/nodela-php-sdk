@@ -1,0 +1,45 @@
+{
+    "name": "nodelapay/nodela",
+    "description": "SDK wrapper for Nodela dev api's to aide in implementation of Nodela on javascript/NodeJs servers, by abstracting away the api complexity and providing easy to use interfaces.",
+    "version": "1.0.0",
+    "type": "library",
+    "require": {
+        "php": "^8.1",
+        "guzzlehttp/guzzle": "^7.10"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^12.5",
+        "phpstan/phpstan": "^2.1",
+        "friendsofphp/php-cs-fixer": "^3.94"
+    },
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "Nodelapay\\Nodela\\": "src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Nodelapay\\Nodela\\Tests\\": "tests/"
+        }
+    },
+    "authors": [
+        {
+            "name": "NodelaPay LTD",
+            "email": "sayhello@nodela.co"
+        }
+    ],
+    "scripts": {
+        "test": "phpunit",
+        "test:coverage": "phpstan analyse src --level=max",
+        "analyse": "phpstan analyse src --level=max",
+        "format": "php-cs-fixer fix",
+        "format:check": "php-cs-fixer fix --dry-run --diff"
+    },
+    "config": {
+        "sort-packages": true,
+        "preferred-install": "dist"
+    },
+    "minimum-stability": "stable",
+    "prefer-stable": true
+}
