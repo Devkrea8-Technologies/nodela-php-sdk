@@ -133,6 +133,7 @@ Full reference: [docs/error-handling.md](docs/error-handling.md)
 | [Invoices](docs/invoices.md)                 | Create and verify invoices                        |
 | [Transactions](docs/transactions.md)         | List and filter transactions                      |
 | [Error Handling](docs/error-handling.md)     | Exception hierarchy and recovery strategies       |
+| [Supported Currencies](docs/supported-currencies.md) | Full list of 60+ supported fiat currencies |
 | [HTTP Layer](docs/http-layer.md)             | Request/Response internals for advanced use       |
 | [Testing](docs/testing.md)                   | Running the test suite, writing tests             |
 

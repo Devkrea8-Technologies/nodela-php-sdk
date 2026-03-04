@@ -30,29 +30,29 @@ The SDK ships with a comprehensive test suite built on PHPUnit 12.5. This docume
 
 ## Test Suite Structure
 
-```
+```text
 tests/
-├── Unit/
-│   ├── ConfigTest.php                     — Config class
-│   ├── ClientTest.php                     — Client class
-│   ├── Http/
-│   │   └── RequestTest.php                — HTTP verbs, exception mapping
-│   ├── Resources/
-│   │   ├── InvoicesTest.php               — create(), verify(), currency validation
-│   │   └── TransactionsTest.php           — list(), pagination
-│   └── Exceptions/
-│       ├── ApiExceptionTest.php
-│       ├── AuthenticationExceptionTest.php
-│       ├── RateLimitExceptionTest.php
-│       └── ValidationExceptionTest.php
-└── Integration/
-    ├── InvoicesIntegrationTest.php        — full request/response cycle
-    └── TransactionsIntegrationTest.php
++-- Unit/
+|   +-- ConfigTest.php                     - Config class
+|   +-- ClientTest.php                     - Client class
+|   +-- Http/
+|   |   +-- RequestTest.php                - HTTP verbs, exception mapping
+|   +-- Resources/
+|   |   +-- InvoicesTest.php               - create(), verify(), currency validation
+|   |   +-- TransactionsTest.php           - list(), pagination
+|   +-- Exceptions/
+|       +-- ApiExceptionTest.php
+|       +-- AuthenticationExceptionTest.php
+|       +-- RateLimitExceptionTest.php
+|       +-- ValidationExceptionTest.php
++-- Integration/
+    +-- InvoicesIntegrationTest.php        - full request/response cycle
+    +-- TransactionsIntegrationTest.php
 ```
 
 ### PHPUnit configuration
 
-See [phpunit.xml](../phpunit.xml) for the full configuration. The `APP_ENV=testing` env var is set automatically.
+See [phpunit.xml](https://github.com/Devkrea8-Technologies/nodela-php-sdk/blob/main/phpunit.xml) for the full configuration. The `APP_ENV=testing` env var is set automatically.
 
 ---
 

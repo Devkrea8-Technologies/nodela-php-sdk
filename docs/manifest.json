@@ -1,5 +1,8 @@
 {
   "name": "Nodela PHP SDK",
+  "title": "Nodela PHP SDK",
+  "package": "nodela/php-sdk",
+  "installCommand": "composer require nodela/php-sdk",
   "version": "1.0.0",
   "description": "Official PHP SDK for the Nodela payment API",
   "baseUrl": "https://nodela.co/docs/php-sdk",
@@ -10,7 +13,11 @@
       "file": "getting-started.md",
       "description": "Installation, initialisation, and your first API request",
       "order": 1,
-      "tags": ["installation", "quickstart", "setup"]
+      "tags": [
+        "installation",
+        "quickstart",
+        "setup"
+      ]
     },
     {
       "id": "configuration",
@@ -18,7 +25,12 @@
       "file": "configuration.md",
       "description": "Config class options, custom headers, timeouts, and base URL override",
       "order": 2,
-      "tags": ["config", "headers", "timeout", "api-key"]
+      "tags": [
+        "config",
+        "headers",
+        "timeout",
+        "api-key"
+      ]
     },
     {
       "id": "invoices",
@@ -26,7 +38,13 @@
       "file": "invoices.md",
       "description": "Creating invoices, verifying payment status, supported currencies",
       "order": 3,
-      "tags": ["invoices", "payments", "currencies", "create", "verify"]
+      "tags": [
+        "invoices",
+        "payments",
+        "currencies",
+        "create",
+        "verify"
+      ]
     },
     {
       "id": "transactions",
@@ -34,7 +52,12 @@
       "file": "transactions.md",
       "description": "Listing and paginating transaction history",
       "order": 4,
-      "tags": ["transactions", "list", "pagination", "history"]
+      "tags": [
+        "transactions",
+        "list",
+        "pagination",
+        "history"
+      ]
     },
     {
       "id": "error-handling",
@@ -42,23 +65,54 @@
       "file": "error-handling.md",
       "description": "Exception hierarchy, catching specific errors, retry strategies",
       "order": 5,
-      "tags": ["errors", "exceptions", "authentication", "validation", "rate-limit"]
+      "tags": [
+        "errors",
+        "exceptions",
+        "authentication",
+        "validation",
+        "rate-limit"
+      ]
+    },
+    {
+      "id": "supported-currencies",
+      "title": "Supported Currencies",
+      "file": "supported-currencies.md",
+      "description": "Full list of 60+ supported fiat currencies and programmatic access",
+      "order": 6,
+      "tags": [
+        "currencies",
+        "fiat",
+        "supported",
+        "validation"
+      ]
     },
     {
       "id": "http-layer",
       "title": "HTTP Layer",
       "file": "http-layer.md",
       "description": "Request and Response internals for advanced integration",
-      "order": 6,
-      "tags": ["http", "guzzle", "request", "response", "advanced"]
+      "order": 7,
+      "tags": [
+        "http",
+        "guzzle",
+        "request",
+        "response",
+        "advanced"
+      ]
     },
     {
       "id": "testing",
       "title": "Testing",
       "file": "testing.md",
       "description": "Running the test suite, mocking strategies, writing new tests",
-      "order": 7,
-      "tags": ["testing", "phpunit", "mocking", "unit", "integration"]
+      "order": 8,
+      "tags": [
+        "testing",
+        "phpunit",
+        "mocking",
+        "unit",
+        "integration"
+      ]
     }
   ]
 }

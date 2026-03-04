@@ -8,11 +8,12 @@ This document is aimed at contributors and advanced users who need to understand
 
 ## Overview
 
-```
-Client
-  ├── Invoices   ──┐
-  └── Transactions ─┤──► Request ──► GuzzleHTTP ──► Nodela API
-                    └──► Response ◄──────────────────────────┘
+```text
+Client +-- Invoices     --+
+       |                  +--> Request --> GuzzleHTTP --> Nodela API
+       +-- Transactions --+      |
+                                 |
+       <-- Response <------------+
 ```
 
 `Request` wraps a `GuzzleHttp\Client` instance, builds URLs via `Config::getFullUrl()`, and maps Guzzle exceptions to typed SDK exceptions. `Response` is a thin value object that carries the decoded JSON body, HTTP status code, and headers.
