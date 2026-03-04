@@ -7,6 +7,18 @@ Format: `type(scope): description` — e.g. `feat(invoices): add refund support`
 
 ---
 
+## [1.1.0](https://github.com/Devkrea8-Technologies/nodela-php-sdk/compare/nodelapay/nodela-v1.0.0...nodelapay/nodela-v1.1.0) (2026-03-04)
+
+
+### Features
+
+* bootstrap release-please ([17ae975](https://github.com/Devkrea8-Technologies/nodela-php-sdk/commit/17ae9757572a5f2ce48179b4bfdd8bc87a8af757))
+
+
+### Documentation
+
+* Add supported currencies page, update documentation structure and formatting, remove Response unit tests, and introduce a docs notification workflow. ([2912f3b](https://github.com/Devkrea8-Technologies/nodela-php-sdk/commit/2912f3b4268f548d7ef64b7f3852313cf554ffde))
+
 ## [1.0.0] - 2026-02-20
 
 ### Features
